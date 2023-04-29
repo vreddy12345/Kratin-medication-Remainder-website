@@ -1,12 +1,19 @@
 const medicationList = document.getElementById('medication-list');
 const addMedicationForm = document.querySelector('form');
-const nameInput = document.getElementById('name');
+const nameInput = document.getElementById('name')
 const dosageInput = document.getElementById('dosage');
 const frequencyInput = document.getElementById('frequency');
 const timeInput = document.getElementById('time');
+const displaytext = document.getElementById("para")
 
+function addmedication() {
+    let nameval = nameInput.value
+    let dosagevalue = dosageInput.value
+    let frequencyvalue = frequencyInput.value
+    let timevalue = timeInput.value
+    displaytext.textContent = nameval + " " + dosagevalue + " " + frequencyvalue + " " + timevalue;
 
-
+}
 
 function addMedicationToDOM(medication) {
     const li = document.createElement('li');
