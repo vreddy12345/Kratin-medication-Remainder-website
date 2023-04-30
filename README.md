@@ -22,6 +22,8 @@ Click the "Add Medication" button to add a new medication
 Enter the medication name, dosage, frequency, and time in the form
 Click the "AddMedication" button to save the medication
 The medication will be displayed in the list with the specified frequency and time
-The application will send a reminder notification to the user at the specified time
+The application will send a reminder notification to the user at the specified time  
+
+**By using this Link** https://remainm.ccbp.tech/  **you able to view the output**
 
 
